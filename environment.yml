@@ -1,0 +1,9 @@
+name: rag_system
+channles:
+- anaconda
+- conda-forge
+- defaults
+dependencies:
+- pip
+- pip:
+  - -r requirements.txt
